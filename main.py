@@ -30,7 +30,7 @@ def create_calendar_view(year: int, month: int, check_days: List[int]) -> str:
             
             # Логика с видео
             if day in check_days:
-                week_str += "✅ "
+                week_str += "✅"
             elif day < 10:
                 week_str += f" {day} "
             else:
